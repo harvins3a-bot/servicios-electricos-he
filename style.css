@@ -1,0 +1,212 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#c6a8a8;
+color:#230a0a;
+}
+
+header{
+background:#000;
+padding:15px 40px;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+nav ul{
+list-style:none;
+display:flex;
+gap:20px;
+}
+
+nav ul li a{
+color:rgb(150, 86, 86);
+text-decoration:none;
+font-weight:bold;
+}
+
+.logo-container img{
+height:120px;
+}
+
+.hero{
+background:linear-gradient(135deg,#0033cc,#cc0000);
+color:white;
+text-align:center;
+padding:120px 20px;
+}
+
+.hero h1{
+font-size:36px;
+margin-bottom:20px;
+}
+
+.btn{
+display:inline-block;
+background:#ff0000;
+color:white;
+padding:12px 25px;
+border-radius:5px;
+text-decoration:none;
+font-weight:bold;
+}
+
+section{
+padding:60px 40px;
+text-align:center;
+}
+
+h2{
+margin-bottom:30px;
+color:#0033cc;
+}
+
+.cards{
+display:flex;
+justify-content:center;
+gap:25px;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+padding:25px;
+width:500px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.galeria{
+display:flex;
+justify-content:center;
+gap:15px;
+flex-wrap:wrap;
+}
+
+.galeria img{
+width:300px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+iframe{
+margin-top:20px;
+border-radius:10px;
+}
+
+footer{
+background:#000;
+color:white;
+padding:20px;
+margin-top:40px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+font-size:28px;
+padding:15px;
+border-radius:50%;
+text-decoration:none;
+box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+servicios-electricos-he/
+│
+├── index.html
+├── style.css
+└── img/
+.anterior, .siguiente{
+position:absolute;
+top:50%;
+transform:translateY(-50%);
+color:white;
+font-size:50px;
+cursor:pointer;
+padding:10px;
+user-select:none;
+}
+
+.anterior{
+left:30px;
+}
+
+.siguiente{
+right:30px;
+}
+
+#empresa{
+background:#f9f9f9;
+padding:60px 40px;
+}
+
+.empresa-container{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+margin-top:30px;
+}
+
+.empresa-card{
+background:rgb(173, 146, 146);
+width:320px;
+padding:25px;
+border-radius:15px;
+box-shadow:0 8px 20px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.empresa-card:hover{
+transform:translateY(-10px);
+}
+
+.empresa-card h3{
+color:#0033cc;
+margin-bottom:40px;
+}
+
+#valores{
+background:#f4f1f1;
+padding:60px 40px;
+text-align:center;
+}
+
+.valores-container{
+display:flex;
+justify-content:center;
+gap:25px;
+flex-wrap:wrap;
+margin-top:30px;
+}
+
+.valor{
+background:hsl(0, 15%, 59%);
+padding:20px;
+width:250px;
+border-radius:10px;
+box-shadow:0 30px 30px rgba(0,0,0,0.1);
+}
+
+
+
+
+
